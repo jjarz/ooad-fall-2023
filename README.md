@@ -2,7 +2,10 @@
 
 ### Welcome to Object-Oriented Analysis &amp; Design!
 
-How can we engineer software that can be maintained amidst ever-changing requirements? This course will be a guide to the object-oriented design principles and patterns to make your code withstand the test of time.
+How can we engineer easily-maintainable software amidst ever-changing requirements? This course will be a guide to the object-oriented design principles and patterns to make your code withstand the test of time.
+
+![comic: I could restructure, or use on little goto instead. how bad can it be?...dinosaur attacks](https://imgs.xkcd.com/comics/goto.png)
+##### Comic from xkcd (https://xkcd.com/292/)
 
 # Overview 
  
@@ -10,7 +13,7 @@ How can we engineer software that can be maintained amidst ever-changing require
 
 Monday & Wednesdays 2:00PM-3:15PM
 
-Rady 131 
+Rady 131
 
 ### Instructor
 Prof. Julie Jarzemsky
@@ -19,11 +22,14 @@ Office: Rady 127A
 
 Email: julie.jarzemsky@colorado.edu 
 
+### Office Hours
+Monday 4-5pm Rady 127A 
+
+or by appointment
+https://calendly.com/prof-jarz/office-hours
 
 ### Course Canvas
 Canvas: https://canvas.colorado.edu/courses/95447  
- 
-Office Hours: To be scheduled
 
 
 # Syllabus Contents
@@ -96,7 +102,7 @@ Coursework consists of:
 * Midterm and final exams
 
 ### Projects
-Students will plan, design and implement 7 programming projects throughout the semester, working in teams of two for all but the first project. Students will create diagrams, plan out, implement and test code, and write reports for their project work.
+Students will plan, design and implement **7 programming projects** throughout the semester, working in teams of two for all but the first project. Students will create diagrams, plan out, implement and test code, and write reports for their project work.
 
 Teams may turn in one group submission for both members. All homework and reports must be legibly written or typed and must include all the students name(s) in the submission.
 
@@ -105,23 +111,22 @@ All homework assignments should be turned in at the due date/time presented for 
 Code and reports must include proper references to any supporting materials. Whether working as a team or leveraging software designs from books, the Internet, ChatGPT, or other sources, students are expected and required to cite and credit the source of the information clearly and completely. Plagiarism will not be tolerated and will be reported to the CU Honor Code Office.
 
 #### **Policy on Using ChatGPT or other AI Systems**
-The instructor's stance on AI is that it can be a useful tool to write a first draft of any written work, code or otherwise, but that it has limitations and should not be a complete replacement of original student work. If you choose to use an AI system, you must cite that you did so, explaining the following in your README file or code comments:
+The instructor's stance on AI is that it can be a useful tool to write a first draft of any written work, code or otherwise, but that it has limitations and should not be a complete replacement of original student work. If you choose to use an AI system, you must cite that you did so with comments in your code and explain the following in your README file, in detail:
 1. What you asked the AI to write
-2. How you revised what you received or verified that the code was correct if you made no revision
+2. How you revised what you received or verified that the code was correct if you made no revision (eg. how you tested your code, made decisions for changes needed, etc.)
 3. Any code copied directly from the AI system must be labeled as such
 
+**All team members are expected to be able to explain the code in their project, and may be assessed via interview grading.**
 
-All team members are expected to be able to explain the code in their project, and will be assessed via coding interviews.
 
+### Quizzes
 
-### Readings & Quizzes
-
-Weekly quizzes administered through Canvas will test your understanding of the readings required for the course. Quizzes are open-note and can be taken twice, counting the highest score towards your grade.
+Weekly quizzes administered through Canvas will test your understanding of the lecture content and readings required for the course. Quizzes are open-note and can be taken twice, counting the highest score towards your grade.
 
 ### In-class activities and discussions
-Speaking about a topic, testing a design or writing code activates a part of your brain that will help you retain the content for this course. Class time will include in-class activities and discussions meant to facilitate this. Participation in these activities and discussions will be factored into your grade.
+Class time will aim to get students speaking about the course topics, testing out solutions and identifying mistakes (we all make 'em). Participation in these activities and discussions will be factored into your grade.
 
-When you miss a session, you miss out on participating and contributing to the activities during that class. All students are expected to come to class having made progress with readings, course assignments, and projects and fully participate in class activities and discussions. The participation grade is calculated based on active involvement in class activities. 
+When you miss a session, you miss out on participating and contributing to the activities during that class. All students are expected to come to class having made progress with readings and projects and fully participate in class activities and discussions. The participation grade is calculated based on active involvement in class activities. 
 
 **Here are some examples of opportunities for participation:**
 * Contributing to in-class discussions: verbal and written
@@ -137,6 +142,29 @@ Exams include a mid-term and final examination, with a similar format to the qui
 
 ### Extra Credit
 From time to time, there may be opportunities for extra credit. Generally, extra credit opportunities come with project work. Project extra credit will be described in project grading rubrics and will be awarded for individual or team projects when projects are graded.
+
+## Schedule
+
+This is a **tentative** schedule of the course content. Any changes will be announced in class and updated in Canvas, but may not be reflected here.
+
+| Week | Topics | Projects assigned| Projects due | Tests | Readings |
+|----|----|----|-----|----|---|
+1: 8/21-8/25|Intro to class, OO Paradigm & Fundamentals|P1||Q1|
+2: 8/28-9/1|Git, Java, UML | |P1.1 | Q2|
+3: 9/4-9/8|UML & TDD|P2 |P1.2 | - |
+4: 9/11-9/15|Strategy, Observer, Problem-Solution||P2.1|Q3|Ch 1, 2|
+5: 9/18-9/22|Decorator, Factory, Conceptual Modeling|P3|P2.2|Q4| Ch 3, 4|
+6: 9/25-9/29|Singleton, Command, Facade/Adapter||P3.1|Q5|Ch 5, 6, 7|
+7: 10/2-10/6|Expanding Horizons, Template, Iterator/Composite|P4|P3.2|Q6|Ch 8,9|
+8: 10/9-10/13|MVC, Principles, State||P4.1|Midterm|Ch 10, 12|
+9: 10/16-10/20|Proxy, Bridge/Builder, Pitches from Project Partners|P5|P4.2|Ch 11,13,14|
+10: 10/23-10/27|Flyweight, Interp, CoR, Mediator/Memento, Prototype/Visitor|||Q8|Ch 14|
+11: 10/30-11/3|Expert Design, Design Techniques, ORMs|P6|P5|Q9||
+12: 11/6-11/10|Refactoring, Dependency Injection, Reflection|||Q10||
+13: 11/13-11/17|Architecture, APIs|P7|P6|Q11||
+14: 11/20-11/24|Fall break - no classes||||
+15: 11/27-12/1|Anti/Other Patterns, Project updates and critiques|||||
+16: 12/4-12/7|Final Review, Project Presentations||P7|Final exam||
 
 # Course Policies 
 
@@ -160,7 +188,7 @@ The overall course grade will be based on the following breakdown:
 ## Attendance
 Attendance is required and will be evaluated as part of your participation grade. Attending class ensures that you and your project partner stay up to date with the material required to complete the assignments.
 
-We understand that emergencies and disruptions happen, so if you have to miss a class session, we ask that you consult the syllabus, Canvas, and your peers to learn about what happened during class. It is still your responsibility to submit assignments and projects on time. Unexcused missed class periods will impact your participation grade. Missing more than 40% of the course sessions (of unexcused absences) will result in a failing grade in participation.
+If you need to miss a class session, we ask that you consult the syllabus, Canvas, and your peers to learn about what happened during class. Unexcused missed class periods will impact your participation grade.
 
 ## Extensions & Extenuating Circumstances
 Please refer to individual project assignments for late policies. Because late work within reason is accepted (with some penalty), extensions on assignments are not standard practice.
@@ -193,7 +221,7 @@ For those who feel ill and think you might have COVID-19 or if you have tested p
 
 Disability Services determines accommodations based on documented disabilities in the academic environment. If you qualify for accommodations because of a disability, submit your accommodation letter from Disability Services to your faculty member in a timely manner so your needs can be addressed. Contact Disability Services at 303-492-8671 or dsinfo@colorado.edu for further assistance.   
 
-If you have a temporary medical condition or required medical isolation for which you require accommodation, {Faculty: insert your procedure here for students to alert you about absence due to illness, injury, or medical isolation. Because of FERPA student privacy laws, do not require students to state the nature of their illness when alerting you. Do not require "doctor's notes" for classes missed due to illness; campus health services no longer provide "doctor's notes" or appointment verifications.} Also see Temporary Medical Conditions on the Disability Services website. 
+If you have a temporary medical condition or required medical isolation for which you require accommodation, please contact the instructor to discuss accommodations. You are not required to disclose the nature of your medical condition. Also see Temporary Medical Conditions on the Disability Services website. 
 
 ## Preferred Student Names and Pronouns 
 
@@ -213,6 +241,6 @@ Please know that faculty and graduate instructors have a responsibility to infor
 
 ## Religious Holidays 
 
-Campus policy regarding religious observances requires that faculty make every effort to deal reasonably and fairly with all students who, because of religious obligations, have conflicts with scheduled exams, assignments or required attendance. In this class, {Faculty: insert your procedures here}. 
+Campus policy regarding religious observances requires that faculty make every effort to deal reasonably and fairly with all students who, because of religious obligations, have conflicts with scheduled exams, assignments or required attendance. In this class, please inform your instructor if you need to miss class or need other accommodations related to religious holidays.
 
 See the campus policy regarding religious observances for full details. 
