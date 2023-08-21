@@ -23,7 +23,9 @@ Office: Rady 127A
 Email: julie.jarzemsky@colorado.edu 
 
 ### Office Hours
-Monday 4-5pm Rady 127A 
+Tues 9:30am-10:30am
+Thurs 4pm-5pm
+in Rady 127A and Zoom https://cuboulder.zoom.us/j/95748160030
 
 or by appointment
 https://calendly.com/prof-jarz/office-hours
