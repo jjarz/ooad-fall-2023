@@ -1,7 +1,9 @@
 # Project 1
 
+P1.1 due Friday Sept 1, 8pm, P1.2 due Friday Sept 8, 8pm
+
 This introductory assignment is intended to be done by you as a solo effort. The goal of the assignments is first, to review basic OO terms and second, to get set up to perform basic development tasks with Java and Git.
-s
+
 ## Project 1.1: OO Concepts and Definitions – 10 points
 Provide definitions for each of the following six terms. Cite sources, even if the source is the textbook. 
 
@@ -84,7 +86,7 @@ analyzer.analyze(data); // perform all calculations
 ## Grading Rubric:
 ### Project 1.1 
 
-**P1.1 is worth 10 points total and is due on Wednesday 8/30 at 8 PM.**
+**P1.1 is worth 10 points total and is due on Friday 9/1 at 8 PM.**
 
 The submission for 1.1 will be your PDF with each of the six terms, their definitions, and your examples.
 
