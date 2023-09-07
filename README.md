@@ -24,7 +24,7 @@ Email: julie.jarzemsky@colorado.edu
 
 ### Office Hours
 Tues 9:30am-10:30am
-Thurs 4pm-5pm
+Thurs 2pm-3pm
 in Rady 127A and Zoom https://cuboulder.zoom.us/j/95748160030
 
 or by appointment
